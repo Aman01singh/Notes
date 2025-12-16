@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.Notes" parent="Theme.MaterialComponents.NoActionBar" >
+    <style name="Theme.Notes" parent="Theme.MaterialComponents.NoActionBar">
         <item name="android:statusBarColor">@color/app_color</item>
         <item name="android:windowOptOutEdgeToEdgeEnforcement">true</item>
     </style>

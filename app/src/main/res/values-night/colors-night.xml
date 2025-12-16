@@ -5,8 +5,8 @@
     <color name="purple_700">#FF3700B3</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
-    <color name="app_color">#FF5C5C</color>
-    <color name="splash_bg">#E4BEBE</color>
+    <color name="black">#FFFFFF</color>
+    <color name="white">#000000</color>
+    <color name="app_color">#06FFD7</color>
+    <color name="splash_bg">#96E0CD</color>
 </resources>
