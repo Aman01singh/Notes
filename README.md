@@ -58,3 +58,37 @@ Kotlin: The project is written entirely in Kotlin.
 
 Basic Android Project: Ensure you have a standard Android project initialized.
 
+fun generatePyramid(input: String) {
+    if (input.isEmpty()) {
+        println("Input string cannot be empty.")
+        return
+    }
+
+    val text = input.uppercase()
+    val length = text.length
+    val totalRows = (length * 2) - 1
+
+    for (i in 0 until totalRows) {
+        
+        val n = if (i < length) {
+            i
+        } else {
+            totalRows - 1 - i
+        }
+
+        val leftPart = text.substring(0, n + 1)
+        
+        val gapWidth = (length * 2) - 3 - (2 * n)
+        val middleGap = " ".repeat(maxOf(0, gapWidth))
+
+        val rightPart = leftPart
+            .reversed()
+            .drop(1)
+
+        println(leftPart + middleGap + rightPart)
+    }
+}
+
+fun main() {
+    generatePyramid("UNOCOIN") 
+}
